@@ -1,9 +1,8 @@
 #!/bin/bash
 
 run_dir=/Users/pfothergill/
-output_dir=/localscratch/Users/pfothergill/output_tmp 
-data_dir=/localscratch/Users/pfothergill/data_tmp
-#mkdir -p $output_dir/data
+output_dir=/Users/pfothergill/output_tmp 
+data_dir=/Users/pfothergill/data_tmp
 mkdir $output_dir/qsub_output
 
 # Download the reference genome from UCSC (allows easy browsing of results)
